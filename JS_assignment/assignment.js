@@ -85,6 +85,20 @@
 //     document.write("Name : "+ contactNames[j]+ " Contact Number: "+contactNumbers[j] +"<br>");
 //    }
     
+// TASK 6:
+
+// var products = ["(1): Biryani", "(2): Karahi", "(3): Zinger Roll", "(4): French Fries", "(5): Ice-Cream", "(6): Soft drink"]
+
+// var productPrompt = "Which product do you want? Please enter item number \n"
+
+// for (var index = 0; index < products.length; index++) {
+//     productPrompt += products[index] + "\n"
+// }
+// var itemToRemove = +prompt(productPrompt) - 1
+// console.log("User selected: " + products[itemToRemove])
+// products = products.slice(0, itemToRemove).concat(products.slice(itemToRemove + 1));
+// console.log("Remaining products: " + products.length + "\n" + products)
+
 
    
 
